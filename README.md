@@ -148,7 +148,8 @@ Positive    34.724541
 Name: proportion, dtype: float64
 ```
 
-СКРІНШОТ: Розподіл класів сепсису (стовпчикова діаграма)
+![image](https://github.com/user-attachments/assets/a8cce2aa-f797-4adf-a6bd-ce0564cd4773)
+
 
 **Інтерпретація розподілу класів**:
 - Дані не збалансовані: 65.3% пацієнтів не мають сепсису (Negative), а 34.7% мають сепсис (Positive)
@@ -156,7 +157,8 @@ Name: proportion, dtype: float64
 
 ### Кореляційний аналіз
 
-СКРІНШОТ: Кореляційна матриця (теплова карта)
+![image](https://github.com/user-attachments/assets/f509ac45-1c6d-4030-9641-bb063c99e82a)
+
 
 **Інтерпретація кореляційної матриці**:
 - Спостерігається помірна кореляція між деякими параметрами
@@ -226,8 +228,10 @@ Recall: 0.7209
 F1 Score: 0.6392
 ```
 
-СКРІНШОТ: Матриця помилок для логістичної регресії
-СКРІНШОТ: ROC-крива для логістичної регресії
+![image](https://github.com/user-attachments/assets/c4989e85-286c-432e-a6fd-8db50c9dc818)
+
+![image](https://github.com/user-attachments/assets/f3b1c12c-0c3e-45cb-b8e0-5d71ecbb970b)
+
 
 ### 2. Дерево рішень
 
@@ -239,8 +243,10 @@ Recall: 0.5814
 F1 Score: 0.5682
 ```
 
-СКРІНШОТ: Матриця помилок для дерева рішень
-СКРІНШОТ: ROC-крива для дерева рішень
+![image](https://github.com/user-attachments/assets/c83faaa2-6064-4167-9331-660e096f0e6e)
+
+![image](https://github.com/user-attachments/assets/e8b17743-c35d-43a8-b567-637628ccae97)
+
 
 ### 3. Випадковий ліс
 
@@ -252,8 +258,10 @@ Recall: 0.6512
 F1 Score: 0.6154
 ```
 
-СКРІНШОТ: Матриця помилок для випадкового лісу
-СКРІНШОТ: ROC-крива для випадкового лісу
+![image](https://github.com/user-attachments/assets/f284f815-2e41-4ec0-9c52-e0e79cd5a0ba)
+
+![image](https://github.com/user-attachments/assets/6aba4fa5-05ce-4f1f-a45e-610a2f611ae2)
+
 
 ### 4. Градієнтний бустинг
 
@@ -265,8 +273,10 @@ Recall: 0.7442
 F1 Score: 0.6667
 ```
 
-СКРІНШОТ: Матриця помилок для градієнтного бустингу
-СКРІНШОТ: ROC-крива для градієнтного бустингу
+![image](https://github.com/user-attachments/assets/00a1bf6e-b574-4505-baac-8714be107a68)
+
+![image](https://github.com/user-attachments/assets/abd14337-ca8d-4d80-b375-63b98e5acf98)
+
 
 ### 5. XGBoost
 
@@ -278,8 +288,10 @@ Recall: 0.6744
 F1 Score: 0.6304
 ```
 
-СКРІНШОТ: Матриця помилок для XGBoost
-СКРІНШОТ: ROC-крива для XGBoost
+![image](https://github.com/user-attachments/assets/e03b02a7-3b9b-4e5d-a0b0-6d49f7f15616)
+
+![image](https://github.com/user-attachments/assets/50fe0add-48a3-4843-af71-4e7fe8e174ed)
+
 
 ### 6. SVM (Support Vector Machine)
 
@@ -291,8 +303,10 @@ Recall: 0.6512
 F1 Score: 0.5957
 ```
 
-СКРІНШОТ: Матриця помилок для SVM
-СКРІНШОТ: ROC-крива для SVM
+![image](https://github.com/user-attachments/assets/d6bd7994-01bf-4836-88b2-47ee7b104234)
+
+![image](https://github.com/user-attachments/assets/ce708840-58d5-46e8-923f-a83447e59a44)
+
 
 ## Порівняння моделей
 
@@ -307,7 +321,8 @@ F1 Score: 0.5957
 1        Дерево рішень  0.683333   0.555556  0.581395  0.568182  0.660828
 ```
 
-СКРІНШОТ: Порівняння моделей за метриками (сітка графіків)
+![image](https://github.com/user-attachments/assets/2d68ad93-4967-49c2-9618-8a1c4a826e7f)
+
 
 **Інтерпретація результатів порівняння моделей**:
 - Градієнтний бустинг показав найкращі результати за всіма основними метриками:
@@ -335,7 +350,8 @@ F1 Score: 0.5957
 8  Insurance    0.013821
 ```
 
-СКРІНШОТ: Важливість ознак для моделі градієнтного бустингу (стовпчикова діаграма)
+![image](https://github.com/user-attachments/assets/c23c199f-56dd-4f4f-8f1d-b11b1f22c32e)
+
 
 **Інтерпретація важливості ознак**:
 - Рівень глюкози плазми (PL) є найбільш важливою ознакою для прогнозування сепсису з внеском 35.4%
@@ -357,8 +373,10 @@ Recall: 0.6279
 F1 Score: 0.5934
 ```
 
-СКРІНШОТ: Матриця помилок для оптимізованої моделі
-СКРІНШОТ: ROC-крива для оптимізованої моделі
+![image](https://github.com/user-attachments/assets/91641b78-c8a8-457b-bf17-c9b242df0eed)
+
+![image](https://github.com/user-attachments/assets/ccbf0f1f-2f13-4d1c-888f-5935afaaab5d)
+
 
 **Інтерпретація результатів оптимізації**:
 - Оптимальні параметри включають високу швидкість навчання (0.2), глибоке дерево (7) та велику кількість дерев (200)
